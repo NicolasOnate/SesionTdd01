@@ -12,7 +12,6 @@ public class Calculadora {
 	}
 
 	public int restar(int i, int j) {
-		return 127;
+		return i-j;
 	}
-
 }
