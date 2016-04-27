@@ -11,4 +11,9 @@ public class Calculadora {
 		return i+j;
 	}
 
+	public int restar(int i, int j) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }
