@@ -60,5 +60,13 @@ public class CalculadoraTest {
 		assertThat(resultado, is(18));
 	}
 	
-	
+	@Test
+	public void multiplicarDocePorCuatroEsCuarentayOcho(){
+		
+		Calculadora calculadora = new Calculadora();
+		
+		int resultado = calculadora.multiplicar(12, 4);
+		
+		assertThat(resultado, is(48));
+	}
 }
