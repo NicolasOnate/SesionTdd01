@@ -14,4 +14,8 @@ public class Calculadora {
 	public int restar(int i, int j) {
 		return i-j;
 	}
+
+	public int multiplicar(int i, int j) {
+		return 0;
+	}
 }

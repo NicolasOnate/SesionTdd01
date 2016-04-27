@@ -49,4 +49,14 @@ public class CalculadoraTest {
 		
 		assertThat(resultado, is(-15));
 	}
+	
+	@Test
+	public void multiplicarSeisPorTresEsDieciocho(){
+		
+		Calculadora calculadora = new Calculadora();
+		
+		int resultado = calculadora.multiplicar(6, 3);
+		
+		assertThat(resultado, is(18));
+	}
 }
