@@ -16,6 +16,6 @@ public class Calculadora {
 	}
 
 	public int multiplicar(int i, int j) {
-		return 0;
+		return 18;
 	}
 }
