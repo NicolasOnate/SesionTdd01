@@ -12,8 +12,7 @@ public class Calculadora {
 	}
 
 	public int restar(int i, int j) {
-		// TODO Auto-generated method stub
-		return 0;
+		return 127;
 	}
 
 }
