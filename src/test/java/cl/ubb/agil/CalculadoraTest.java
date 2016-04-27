@@ -10,10 +10,13 @@ public class CalculadoraTest {
 	
 	@Test
 	public void sumarDosMasTresEsCinco() {
+		//Arrange
 		Calculadora  calculadora = new Calculadora();
 		
+		//Act
 		int resultado = calculadora.sumar(2, 3);
 		
+		//Assert
 		assertThat(resultado,  is(5));
 	}
 
