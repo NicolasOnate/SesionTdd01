@@ -19,5 +19,15 @@ public class CalculadoraTest {
 		//Assert
 		assertThat(resultado,  is(5));
 	}
+	
+	@Test
+	public void sumarMenosUnoMasSienteEsSeis(){
+		
+		Calculadora calculadora = new Calculadora();
+		
+		int resultado = calculadora.sumar(-1, 7);
+		
+		assertThat(resultado, is(6));
+	}
 
 }
